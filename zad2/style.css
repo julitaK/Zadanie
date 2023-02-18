@@ -1,0 +1,19 @@
+header {
+	width: 100%;
+	float: left;
+}
+
+.zdj {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+	grid-row: span 1;
+	grid-gap: 20px;
+	justify-items: center;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}
